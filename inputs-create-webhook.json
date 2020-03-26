@@ -1,0 +1,15 @@
+{
+    "projectName": "codebuild-sandbox",
+    "filterGroups": [
+        [
+            {
+                "type": "EVENT", 
+                "pattern": "PUSH"
+            },
+            {
+                "type": "HEAD_REF",
+                "pattern": "^refs/heads/master$"
+            }
+        ]
+    ]
+}
